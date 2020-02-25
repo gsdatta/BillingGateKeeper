@@ -219,6 +219,16 @@
                 {
                   "defaultValue": null,
                   "description": null,
+                  "name": "nullableFieldNonBreaking",
+                  "type": {
+                    "kind": "SCALAR",
+                    "name": "String",
+                    "ofType": null
+                  }
+                },
+                {
+                  "defaultValue": null,
+                  "description": null,
                   "name": "publishedAt",
                   "type": {
                     "kind": "SCALAR",
