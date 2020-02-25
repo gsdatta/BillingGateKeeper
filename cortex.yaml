@@ -1,7 +1,7 @@
 openapi: 3.0.0
 info:
     title: Billing Gate Keeper
-    description: Data access layer for BPIPE billing tables
+    description: Data access layer for BPIPE billing0 tables
     contact:
         email: billing-pipeline@twilio.com
     version: 1.0.0
