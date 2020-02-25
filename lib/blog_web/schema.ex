@@ -28,6 +28,8 @@ defmodule BlogWeb.Schema do
     field :create_post, :post do
       arg :title, non_null(:string)
       arg :body, non_null(:string)
+      arg :nullable_field_non_breaking, :string
+      arg :nullable_field_breaking, non_null(:string)
       arg :published_at, :naive_datetime
 
       resolve &Resolvers.Content.create_post/3
