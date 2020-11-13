@@ -20,6 +20,9 @@ info:
         type: DOCUMENTATION
         url: https://app.datadoghq.com/dashboard/89v-urx-nzd/tx-billing-gate-keeper
     x-pagerduty-service: PR9VZLM
+    x-cortex-owners:
+      - type: group
+        name: cortexapps/reviewers
 paths:
   /v1/Accounts/{AccountSid}/Billing/PIIData:
     delete:
