@@ -1,7 +1,7 @@
 openapi: 3.0.0
 info:
     title: Billing Gate Keeper
-    description: Data access layer for BPIPE billing0 tables
+    description: Data access layer for BPIPE billing tables
     contact:
         email: test@getcortexapp.com
     version: 1.0.0
@@ -24,7 +24,7 @@ info:
       - type: group
         name: cortexapps/reviewers
 paths:
-  /v1/Accounts/{AccountSid}/Billing/PIIData:
+  /v1/Account/{AccountSid}/Billing/PIIData:
     delete:
       tags:
         - Other
