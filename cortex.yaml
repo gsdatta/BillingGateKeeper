@@ -24,7 +24,7 @@ info:
       - type: group
         name: cortexapps/reviewers
 paths:
-  /v1/Accounts/{AccountSid}/Billing/PIIData:
+  /v1/Account/{AccountSid}/Billing/PIIData:
     delete:
       tags:
         - Other
